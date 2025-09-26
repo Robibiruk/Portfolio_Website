@@ -122,18 +122,3 @@ closeLightbox.addEventListener("click", () => {
   lightbox.classList.remove("active");
 });
 
-// Get total number of images in a project preview
-function getPreviewCount(projectPreview) {
-  return projectPreview.querySelectorAll('img').length;
-}
-
-// Example usage
-const firstProjectPreview = document.querySelector('.project-card .project-preview');
-console.log('Number of images in first project:', getPreviewCount(firstProjectPreview));
-
-// Flip project card on click
-document.querySelectorAll('.project-card').forEach(card => {
-  card.addEventListener('click', () => {
-    card.classList.toggle('flip');
-  });
-});
