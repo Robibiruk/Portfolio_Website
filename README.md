@@ -82,7 +82,7 @@ This website itself is a project, but here’s a glimpse of what I like to showc
 
 I’m always open to collaborating on exciting projects or opportunities. Reach me at:
 
-* **Email**: [your-email@example.com](natim7520@gmail.com)
+* **Email**: [natim7520@example.com](natim7520@gmail.com)
 * **GitHub**: [github.com/Robibiruk](https://github.com/Robibiruk)
 * **LinkedIn**: [linkedin.com/in/yourprofile](https://robel-biruk-72084636b)
 
