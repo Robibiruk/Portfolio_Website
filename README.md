@@ -38,7 +38,7 @@ Portfolio_Website/
 
 ---
 
-## 🚀 How to View
+## 🚀 How to View Locally
 
 1. **Clone the repository**:
 
@@ -56,11 +56,29 @@ cd Portfolio_Website
 
 ---
 
+## 🌐 Live Deployment
+
+The portfolio is deployed online and can be accessed directly via the link below:
+
+**[View Live Portfolio](https://robel-portfolio-website.netlify.app/)**
+
+### What to Expect on the Live Site
+
+* Fully responsive layout that adapts to any screen size.
+* Smooth animations and interactive UI elements for an engaging experience.
+* A dedicated section to explore my projects and skills.
+* Easy-to-use contact form for reaching out.
+* Fast loading and optimized performance thanks to Netlify hosting.
+
+> This live deployment allows anyone—recruiters, collaborators, or fellow developers—to quickly experience my work without needing to clone the repository.
+
+---
+
 ## 💻 About Me
 
-Hi, I’m **Robel Biruk**, a passionate web developer with a knack for building beautiful and functional websites. I love turning ideas into interactive experiences that are both visually stunning and user-friendly.
+Hi, I’m **Robel Biruk**, a passionate web developer and a Pharmacy Student with a knack for building beautiful and functional websites. I love turning ideas into interactive experiences that are both visually stunning and user-friendly.
 
-* **Skills**: HTML, CSS, JavaScript, React (if applicable), Git & GitHub.
+* **Skills**: HTML, CSS, JavaScript, Python, SQL, Git & GitHub.
 * **Hobbies**: Exploring new tech, coding challenges, and creative design.
 
 ---
@@ -71,10 +89,9 @@ This website itself is a project, but here’s a glimpse of what I like to showc
 
 * Personal websites
 * Frontend web applications
-* Interactive UI elements
 * Any experimental or innovative web design work
 
-> *Each project highlights my attention to detail, coding best practices, and creativity.*
+> Each project highlights my attention to detail, coding best practices, and creativity.
 
 ---
 
@@ -82,7 +99,7 @@ This website itself is a project, but here’s a glimpse of what I like to showc
 
 I’m always open to collaborating on exciting projects or opportunities. Reach me at:
 
-* **Email**: [natim7520@example.com](natim7520@gmail.com)
+* **Email**: [natim7520@gmail.com](mailto:natim7520@gmail.com)
 * **GitHub**: [github.com/Robibiruk](https://github.com/Robibiruk)
 * **LinkedIn**: [linkedin.com/in/yourprofile](https://robel-biruk-72084636b)
 
@@ -92,4 +109,4 @@ I’m always open to collaborating on exciting projects or opportunities. Reach 
 
 By visiting my site, you get a clear look at my abilities, coding style, and creativity. Whether you are a recruiter, collaborator, or just a fellow developer, this site serves as a gateway to understanding what I can do.
 
----
+```
