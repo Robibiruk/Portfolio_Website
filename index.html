@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Robel Biruk | Portfolio</title>
+  <link rel="icon" href="https://ik.imagekit.io/1ody6nfsa/static/favicon.ico?updatedAt=1758898683913" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papn3D+..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee+Spice&family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo" ><a href="#home"><i class="fa-solid fa-user" ></i></a> <a href="#home" class="bungee-spice-regular">Robel</a></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="bungee-spice-regular">Home</a></li>
+        <li><a href="#about" class="bungee-spice-regular">About</a></li>
+        <li><a href="#projects" class="bungee-spice-regular">Projects</a></li>
+        <li><a href="#contact" class="bungee-spice-regular">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <h1 class="bungee-spice-regular">Hi, I'm Robel</h1>
+      <p class="cabin-sketch-bold">A passionate frontend developer & Pharmacy student from Ethiopia</p>
+      <a href="#projects" class="btn btn-animate btn-font">View Projects</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+
+      <!-- Profile Picture -->
+      <div class="profile-pic">
+        <img src="images/profile.jpg" alt="Robel Biruk">
+      </div>
+
+      <!-- About Text -->
+      <div class="about-text">
+        <h2 class="bungee-spice-regular">About Me</h2>
+        <p class="cabin-sketch-regular">
+          Hello! I'm Robel Biruk, a frontend developer learning full-stack MERN development while studying Pharmacy. I enjoy creating responsive web apps and solving problems through clean, efficient code.
+          <br><br>
+          When I'm not coding, you'll find me exploring tech projects, learning new frameworks, or working on community-driven applications.
+        </p>
+        <!-- Download CV Button -->
+      <a href="assets/RobelCV.pdf" class="btn btn-animate btn-font" target="_blank" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <div class="projects-container">
+    <h2 class="bungee-spice-regular">My Projects</h2>
+
+    <div class="project-card">
+      <h3 class="bungee-spice-regular">SDG Community Pharmacy</h3>
+      <p class="cabin-sketch-regular">A community pharmacy web app that helps track prescriptions and provides healthcare reminders. Built with HTML, CSS, JavaScript, and backend support.</p>
+      <!-- Scrollable preview images -->
+      <div class="project-preview">
+        <img src="images/preview1.png" alt="Preview 1" />
+        <img src="images/preview2.png" alt="Preview 2" />
+        <img src="images/preview3.png" alt="Preview 3" />
+        <img src="images/preview4.png" alt="Preview 4" />
+        <img src="images/preview5.png" alt="Preview 5" />
+        <img src="images/preview6.png" alt="Preview 6" />
+      </div>
+      <a href="https://community-pharmacy-reminder.onrender.com/" class="btn btn-font" target="_blank">View Live</a>
+      <a href="https://github.com/Robibiruk" class="btn btn-font" target="_blank">GitHub Repo</a>
+    </div>
+
+    <div class="project-card">
+      <h3 class="bungee-spice-regular">Data Analysis with Python using Jupyter Notebook</h3>
+      <p class="cabin-sketch-regular">A Jupyter Notebook assignment analyzing datasets, performing data cleaning, visualization, and basic analysis using Python libraries.</p>
+      <!-- Scrollable preview images -->
+      <div class="project-preview">
+        <img src="images/analysis1.png" alt="Preview 1" />
+        <img src="images/analysis2.png" alt="Preview 2" />
+        <img src="images/analysis3.png" alt="Preview 3" />
+        <img src="images/analysis4.png" alt="Preview 4" />
+        <img src="images/analysis5.png" alt="Preview 5" />
+        <img src="images/analysis6.png" alt="Preview 6" />
+      </div>
+      <a href="https://github.com/Robibiruk/Data_Analaysis_Python_Week_7_Assignment" class="btn btn-font" target="_blank">GitHub Repo</a>
+    </div>
+
+    <div class="project-card">
+      <h3 class="bungee-spice-regular">Daily Journal Template with Python</h3>
+      <p class="cabin-sketch-regular">A Python template for managing daily journal entries. It helps automate journaling, saving entries in organized formats for easy tracking.</p>
+      <!-- Scrollable preview images -->
+      <div class="project-preview">
+        <img src="images/journal1.png" alt="Preview 1" />
+        <img src="images/journal2.png" alt="Preview 2" />
+        <img src="images/journal3.png" alt="Preview 3" />
+        <img src="images/journal4.png" alt="Preview 4" />
+        <img src="images/journal5.png" alt="Preview 5" />
+      </div>
+      <a href="https://github.com/Robibiruk/daily-journal-template-python" class="btn btn-font" target="_blank">GitHub Repo</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <h2 class="bungee-spice-regular">Contact Me</h2>
+    <p class="cabin-sketch-regular">If you'd like to collaborate, ask a question, or just say hello — feel free to drop a message!</p>
+    
+    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+      <!-- Hidden field required by Netlify -->
+      <input type="hidden" name="form-name" value="contact">
+      
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn btn-font">Send Message</button>
+    </form>
+  </div>
+</section>
+<!-- Contact Info with badges -->
+<h3 align="center" class="bungee-spice-regular">Connect with me:</h3>
+<br>
+<p align="center">
+  <a href="mailto:natim7520@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email" height="30" />
+  </a>
+  <a href="https://linkedin.com/in/robel-biruk-72084636b" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=LinkedIn&logoColor=white" alt="LinkedIn" height="30" />
+  </a>
+  <a href="https://github.com/Robibiruk" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white" alt="GitHub" height="30" />
+  </a>
+  <a href="https://instagram.com/ynw_rob.i" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" height="30" />
+  </a>
+  <a href="https://pinterest.com/ynwrobii" target="_blank">
+    <img src="https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white" alt="Pinterest" height="30" />
+  </a>
+  <a href="https://tiktok.com/@ynwrobiii" target="_blank">
+    <img src="https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white" alt="TikTok" height="30" />
+  </a>
+</p>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2025 Robel Biruk. All Rights Reserved.</p>
+</footer>
+
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn" title="Go to top">
+  &#8679; <!-- Up arrow symbol -->
+</button>
+
+<!-- Lightbox overlay -->
+<div class="lightbox" id="lightbox">
+  <span class="close-btn" id="closeLightbox">&times;</span>
+  <div class="lightbox-images"></div>
+</div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
