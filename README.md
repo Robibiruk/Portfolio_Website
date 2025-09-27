@@ -102,11 +102,9 @@ I’m always open to collaborating on exciting projects or opportunities. Reach 
 
 * **Email**: [natim7520@gmail.com](mailto:natim7520@gmail.com)
 * **GitHub**: [github.com/Robibiruk](https://github.com/Robibiruk)
-* **LinkedIn**: [linkedin.com/in/yourprofile](https://robel-biruk-72084636b)
+* **LinkedIn**: [linkedin.com/in/robel-biruk-72084636b](https://robel-biruk-72084636b)
 
 
 ## ⭐ Why Visit My Portfolio?
 
 By visiting my site, you get a clear look at my abilities, coding style, and creativity. Whether you are a recruiter, collaborator, or just a fellow developer, this site serves as a gateway to understanding what I can do.
-
-```
