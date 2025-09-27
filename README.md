@@ -104,7 +104,6 @@ I’m always open to collaborating on exciting projects or opportunities. Reach 
 * **GitHub**: [github.com/Robibiruk](https://github.com/Robibiruk)
 * **LinkedIn**: [linkedin.com/in/yourprofile](https://robel-biruk-72084636b)
 
----
 
 ## ⭐ Why Visit My Portfolio?
 
