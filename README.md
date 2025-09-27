@@ -7,7 +7,7 @@ Welcome to my **personal portfolio website**! This is where I showcase my skills
 ## 🌟 Features
 
 - **Responsive Design** – Works seamlessly on desktops, tablets, and mobile devices.
-- **Modern UI/UX** – Clean, intuitive, and visually appealing design.
+- **Elegant CSS Styling** – Subtle animations, gradients, hover effects, and visually appealing layouts using modern CSS3 techniques.
 - **Interactive Elements** – Smooth scrolling, animated buttons, and engaging sections.
 - **Project Showcase** – Highlighting my best work with descriptions, links, and visuals.
 - **Contact Section** – Easy way to reach out directly from the website.
@@ -18,7 +18,7 @@ Welcome to my **personal portfolio website**! This is where I showcase my skills
 
 - **HTML5** – Semantic and well-structured markup.
 - **CSS3 / SCSS** – Styling, layout, and responsive design.
-- **JavaScript (ES6)** – Interactivity, animations, and DOM manipulation.
+- **JavaScript** – Interactivity, animations, and DOM manipulation.
 - **Fonts & Icons** – Google Fonts and icon libraries for a professional look.
 
 ---
@@ -28,7 +28,8 @@ Welcome to my **personal portfolio website**! This is where I showcase my skills
 ```
 
 Portfolio_Website/
-├── assets/         # Images, icons, and media files
+├── assets/         # files
+├── images/         # images
 ├── css/            # Stylesheets
 ├── js/             # JavaScript files for interactivity
 ├── index.html      # Main landing page
