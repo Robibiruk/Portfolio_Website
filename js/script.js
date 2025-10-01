@@ -24,13 +24,13 @@ const btnObserver = new IntersectionObserver((entries) => {
       entry.target.classList.add('visible');
     }
   });
-}, { threshold: 0.3 }); // triggers when 30% of button is visible
+}, { threshold: 0.3 });
 
 animatedButtons.forEach(btn => btnObserver.observe(btn));
 
 
 // Highlight active nav link
-const navbarHeight = 72; // same as your CSS --navbar-height
+const navbarHeight = 72;
 
 window.addEventListener("scroll", () => {
   const sections = document.querySelectorAll("section");
@@ -97,10 +97,9 @@ document.querySelectorAll(".project-preview img").forEach(img => {
       // Clear old images
       lightboxImagesContainer.innerHTML = "";
 
-      // Find all images inside the same project-preview as the clicked one
+      // Find all images inside the same project-preview when clicked
       const projectImages = img.closest(".project-preview").querySelectorAll("img");
 
-      // Clone those images into the lightbox
       projectImages.forEach(projectImg => {
         const clone = projectImg.cloneNode(true);
         lightboxImagesContainer.appendChild(clone);
@@ -122,3 +121,30 @@ closeLightbox.addEventListener("click", () => {
   lightbox.classList.remove("active");
 });
 
+
+// Email Automation backend integration
+document.getElementById("contact-form").addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = {
+      name: e.target.name.value,
+      email: e.target.email.value,
+      message: e.target.message.value
+    };
+
+    try {
+      const res = await fetch("https://email-automation-esbd.onrender.com/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData)
+      });
+
+      if (res.ok) {
+        alert("✅ Message sent successfully!");
+      } else {
+        alert("❌ Something went wrong!");
+      }
+    } catch (err) {
+      alert("⚠️ Error sending message: " + err.message);
+    }
+  });
