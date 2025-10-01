@@ -118,12 +118,14 @@
     <h2 class="bungee-spice-regular">Contact Me</h2>
     <p class="cabin-sketch-regular">If you'd like to collaborate, ask a question, or just say hello — feel free to drop a message!</p>
     
-    <form id="contact-form">
+    <form class="contact-form" name="contact" method="POST" netlify>
+      <!-- Hidden field required by Netlify -->
+      <input type="hidden" name="form-name" value="contact">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
       <button type="submit" class="btn btn-font">Send Message</button>
-</form>
+    </form>
   </div>
 </section>
 <!-- Contact Info with badges -->
