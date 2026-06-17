@@ -12,6 +12,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee+Spice&family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
 
+  <!-- Three.js for 3D background -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+  <!-- 3D Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Floating 3D layers behind the content -->
+  <div class="floating-shapes" aria-hidden="true">
+    <div class="shape shape-cube"></div>
+    <div class="shape shape-ring"></div>
+    <div class="shape shape-pyramid"></div>
+  </div>
+
   <!-- Navbar -->
   <header>
     <nav class="navbar">
@@ -27,20 +42,20 @@
   </header>
 
   <!-- Home Section -->
-  <section id="home" class="home-section">
-    <div class="home-content">
-      <h1 class="bungee-spice-regular">Hi, I'm Robel</h1>
-      <p class="cabin-sketch-bold">A passionate frontend developer & Pharmacy student from Ethiopia</p>
+  <section id="home" class="home-section scene-3d">
+    <div class="home-content layer" data-depth="0.3">
+      <h1 class="bungee-spice-regular title-3d">Hi, I'm Robel</h1>
+      <p class="cabin-sketch-bold">A passionate frontend developer &amp; Pharmacy student from Ethiopia</p>
       <a href="#projects" class="btn btn-animate btn-font">View Projects</a>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="about-section">
-    <div class="about-container">
+  <section id="about" class="about-section scene-3d">
+    <div class="about-container layer card-3d">
 
       <!-- Profile Picture -->
-      <div class="profile-pic">
+      <div class="profile-pic float-3d">
         <img src="images/profile.jpg" alt="Robel Biruk">
       </div>
 
@@ -59,11 +74,11 @@
   </section>
 
 <!-- Projects Section -->
-<section id="projects" class="projects-section">
+<section id="projects" class="projects-section scene-3d">
   <div class="projects-container">
     <h2 class="bungee-spice-regular">My Projects</h2>
 
-    <div class="project-card">
+    <div class="project-card card-3d tilt-3d">
       <h3 class="bungee-spice-regular">SDG Community Pharmacy</h3>
       <p class="cabin-sketch-regular">A community pharmacy web app that helps track prescriptions and provides healthcare reminders. Built with HTML, CSS, JavaScript, and backend support.</p>
       <!-- Scrollable preview images -->
@@ -79,7 +94,7 @@
       <a href="https://github.com/Robibiruk" class="btn btn-font" target="_blank">GitHub Repo</a>
     </div>
 
-        <div class="project-card">
+    <div class="project-card card-3d tilt-3d">
       <h3 class="bungee-spice-regular">Clean City Report and Restore</h3>
       <p class="cabin-sketch-regular">A project focused on reporting and restoring clean city initiatives, showcasing data analysis and visualization techniques.</p>
       <!-- Scrollable preview images -->
@@ -92,7 +107,7 @@
       <a href="https://github.com/Robibiruk/clean-city" class="btn btn-font" target="_blank">GitHub Repo</a>
     </div>
 
-    <div class="project-card">
+    <div class="project-card card-3d tilt-3d">
       <h3 class="bungee-spice-regular">Data Analysis with Python using Jupyter Notebook</h3>
       <p class="cabin-sketch-regular">A Jupyter Notebook assignment analyzing datasets, performing data cleaning, visualization, and basic analysis using Python libraries.</p>
       <!-- Scrollable preview images -->
@@ -108,7 +123,7 @@
       <a href="https://github.com/Robibiruk/Data_Analaysis_Python_Week_7_Assignment" class="btn btn-font" target="_blank">GitHub Repo</a>
     </div>
 
-    <div class="project-card">
+    <div class="project-card card-3d tilt-3d">
       <h3 class="bungee-spice-regular">Daily Journal Template (Python)</h3>
       <p class="cabin-sketch-regular">A simple daily journal template built with Python, allowing users to create and manage their journal entries.</p>
       <!-- Scrollable preview images -->
@@ -124,13 +139,12 @@
   </div>
 </section>
 
-
   <!-- Contact Section -->
-<section id="contact" class="contact-section">
-  <div class="contact-container">
+<section id="contact" class="contact-section scene-3d">
+  <div class="contact-container card-3d">
     <h2 class="bungee-spice-regular">Contact Me</h2>
     <p class="cabin-sketch-regular">If you'd like to collaborate, ask a question, or just say hello — feel free to drop a message!</p>
-    
+
     <form class="contact-form" name="contact" method="POST" netlify>
       <!-- Hidden field required by Netlify -->
       <input type="hidden" name="form-name" value="contact">
